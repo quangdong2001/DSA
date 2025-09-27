@@ -18,7 +18,7 @@ public:
     void print();
 private:
     static BubbleSort* instance;
-    std::mutex mtx;
+    static std::mutex mtx;
     const int ASCENDING = 0;
     const int DESCENDING = 1;
     std::vector<U> buckets;

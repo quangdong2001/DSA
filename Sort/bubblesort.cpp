@@ -1,5 +1,3 @@
-#include <iostream>
-#include <mutex>
 #include "bubblesort.h"
 namespace Sort{
     template <typename U>
