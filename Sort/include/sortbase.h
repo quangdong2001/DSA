@@ -6,8 +6,8 @@ class SortBase
 {
 public:
     void addCandidate(const U &candidate);
-    virtual void sort(int order) = 0;
     void log();
+    virtual void sort(int order) = 0;
 protected:
     std::vector<U> buckets;
 };
