@@ -1,0 +1,10 @@
+^D:\GIT\DSA\SORT\BUILD-VISUAL-STUDIO\CMAKEFILES\823C520868AEF6CDFBE26DDF975D7D3B\GENERATE.STAMP.RULE
+setlocal
+E:\cmake-4.1.1-windows-x86_64\bin\cmake.exe -SD:/Git/DSA/Sort -BD:/Git/DSA/Sort/build-Visual-Studio --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Git/DSA/Sort/build-Visual-Studio/Sort.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

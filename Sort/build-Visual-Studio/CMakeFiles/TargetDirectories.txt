@@ -1,0 +1,3 @@
+D:/Git/DSA/Sort/build-Visual-Studio/CMakeFiles/sort.dir
+D:/Git/DSA/Sort/build-Visual-Studio/CMakeFiles/ALL_BUILD.dir
+D:/Git/DSA/Sort/build-Visual-Studio/CMakeFiles/ZERO_CHECK.dir
