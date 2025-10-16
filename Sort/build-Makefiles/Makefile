@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sort
+# Target rules for targets named sortProject
 
 # Build rule for target.
-sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sort
-.PHONY : sort
+sortProject: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sortProject
+.PHONY : sortProject
 
 # fast build rule for target.
-sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
-.PHONY : sort/fast
+sortProject/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortProject.dir\build.make CMakeFiles/sortProject.dir/build
+.PHONY : sortProject/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortProject.dir\build.make CMakeFiles/sortProject.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortProject.dir\build.make CMakeFiles/sortProject.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortProject.dir\build.make CMakeFiles/sortProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... sort
+	@echo ... sortProject
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
