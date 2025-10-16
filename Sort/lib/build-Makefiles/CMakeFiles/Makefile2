@@ -53,20 +53,20 @@ RM = E:\cmake-4.1.1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Git\DSA\Sort
+CMAKE_SOURCE_DIR = D:\Git\DSA\Sort\lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Git\DSA\Sort\build-Makefiles
+CMAKE_BINARY_DIR = D:\Git\DSA\Sort\lib\build-Makefiles
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/sortProject.dir/all
+all: CMakeFiles/sort.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/sortProject.dir/codegen
+codegen: CMakeFiles/sort.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/sortProject.dir/clean
+clean: CMakeFiles/sort.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sortProject.dir
+# Target rules for target CMakeFiles/sort.dir
 
 # All Build rule for target.
-CMakeFiles/sortProject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortProject.dir\build.make CMakeFiles/sortProject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortProject.dir\build.make CMakeFiles/sortProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\DSA\Sort\build-Makefiles\CMakeFiles --progress-num=1,2 "Built target sortProject"
-.PHONY : CMakeFiles/sortProject.dir/all
+CMakeFiles/sort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles --progress-num=1,2,3 "Built target sort"
+.PHONY : CMakeFiles/sort.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sortProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\build-Makefiles\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sortProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\build-Makefiles\CMakeFiles 0
-.PHONY : CMakeFiles/sortProject.dir/rule
+CMakeFiles/sort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles 0
+.PHONY : CMakeFiles/sort.dir/rule
 
 # Convenience name for target.
-sortProject: CMakeFiles/sortProject.dir/rule
-.PHONY : sortProject
+sort: CMakeFiles/sort.dir/rule
+.PHONY : sort
 
 # codegen rule for target.
-CMakeFiles/sortProject.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortProject.dir\build.make CMakeFiles/sortProject.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\DSA\Sort\build-Makefiles\CMakeFiles --progress-num=1,2 "Finished codegen for target sortProject"
-.PHONY : CMakeFiles/sortProject.dir/codegen
+CMakeFiles/sort.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles --progress-num=1,2,3 "Finished codegen for target sort"
+.PHONY : CMakeFiles/sort.dir/codegen
 
 # clean rule for target.
-CMakeFiles/sortProject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortProject.dir\build.make CMakeFiles/sortProject.dir/clean
-.PHONY : CMakeFiles/sortProject.dir/clean
+CMakeFiles/sort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/clean
+.PHONY : CMakeFiles/sort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

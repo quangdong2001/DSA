@@ -15,5 +15,8 @@ public:
 private:
     static BubbleSort* instance;
     static std::mutex mtx;
+    using SortBase<U>::buckets;
+    using SortBase<U>::ASCENDING;
+    using SortBase<U>::DESCENDING;
 };
 }

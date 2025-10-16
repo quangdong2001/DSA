@@ -12,11 +12,6 @@ namespace Sort{
             instance = new BubbleSort;
         return instance;
     }
-    // template <typename U>
-    // void BubbleSort<U>::addCandidate(const U candidate)
-    // {
-    //     buckets.push_back(candidate);
-    // }
     template <typename U>
     void BubbleSort<U>::sort(int order)
     {
@@ -33,14 +28,4 @@ namespace Sort{
                 }
             }
     }
-    // template <typename U>
-    // void BubbleSort<U>::print()
-    // {
-    //     std::cout << std::endl <<  "Bucket = ";
-    //     for(int i = 0; i < buckets.size(); i++)
-    //     {
-    //         std::cout << buckets.at(i) << " ";
-    //     }
-    //     std::cout << std::endl;
-    // }
 } // namespace Sort
