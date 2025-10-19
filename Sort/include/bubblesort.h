@@ -1,3 +1,5 @@
+#ifndef BUBBLESORT_H
+#define BUBBLESORT_H
 #include "sortbase.h"
 #include <mutex>
 namespace Sort{ 
@@ -20,3 +22,4 @@ private:
     using SortBase<U>::DESCENDING;
 };
 }
+#endif

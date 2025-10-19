@@ -1,3 +1,5 @@
+#ifndef SORTBASE_H
+#define SORTBASE_H
 #include <iostream>
 #include <vector>
 namespace Sort{
@@ -13,3 +15,4 @@ public:
     std::vector<U> buckets;
 };
 }
+#endif
