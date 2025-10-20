@@ -3,7 +3,7 @@
 /*! @brief size of default argument   
 */ 
 const int ARGUMENT_NUMBER = 1;
-
+const int EMPTY = 0;
 /*! @brief invalid value
 */
 const int VALUE_DEFAULT = -1;
