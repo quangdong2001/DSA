@@ -1,5 +1,7 @@
 #include <iostream>
+#include <cstdlib>
 #include <coredefine.h>
+#include "sortbase.h"
 #include <bubblesort.h>
 #include <vector>
 #include <chrono>
@@ -8,7 +10,7 @@ using namespace std::chrono;
 int main(int argc, const char* argv[]) {
     int dataOption = VALUE_DEFAULT, sortTypeOption = VALUE_DEFAULT;
     int sizeInputData = VALUE_DEFAULT;
-    std::vector<void> budgets;
+    std::vector<void*> budgetsInput;
 InitScreen:
     std::cout << "Choosing Data Option~" << std::endl;
     std::cout << "1. Input array from terminal" << std::endl;
@@ -16,7 +18,7 @@ InitScreen:
     // Dongnq: 251019: choose data option (S)
     std::cout << "Your data option = ";
     std::cin >> dataOption;
-    if((dataOption & InvalidDataOption) == InvalidDataOption)
+    if((dataOption | InvalidDataOption) == InvalidDataOption)
     {
         std::cout << "Invalid option~" << std::endl;
         Sleep(DELAY_TIME);
@@ -30,19 +32,21 @@ InitScreen:
         std::cout << "Enter size of input data: size = ";
         std::cin >> sizeInputData;
         if(sizeInputData < EMPTY)
-            return;
+            return 0;
         for(int i = 0; i < sizeInputData; i++)
         {
-            int value = VALUE_DEFAULT;
+            float *value = new float(VALUE_DEFAULT);
             std::cout << "InputData at " << i << " = ";
-            std::cin >> budgets[i];
+            std::cin >> *value;
+            budgetsInput.push_back((void*) value);
         }
     }else if(dataOption & TerminalOption){
         if(argc == ARGUMENT_NUMBER)
-            return;
+            return 0;
         for(int i = 1; i < argc--; i++)
         {
-            budgets[i] = *(argv + i);
+            float *value = new float(atof(*(argv + i)));
+            budgetsInput.push_back((void*)value);
         }
     }else{
         // TODO: Dongnq
@@ -57,12 +61,16 @@ InitScreen:
         std::cout << "4. Merge Sort" << std::endl;
         std::cout << "5. Quick Sort" << std::endl;
         std::cin >> sortTypeOption;
-        if((sortTypeOption & InvalidSortType) == InvalidSortType)
+        if((sortTypeOption | InvalidSortType) == InvalidSortType)
         {
             Sleep(DELAY_TIME);
             system("cls");
             goto InitScreen; 
         }
+        // for(int i = 0; i < budgetsInput.size(); i++)
+        //     Sort::BubbleSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
+        // Sort::BubbleSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
+        Sort::BubbleSort<float>::Instance();
         // Dongnq: 251019: choose sort option (E)
     std::cout << "Cmake and sort comparision END~" << std::endl;
     return 0;

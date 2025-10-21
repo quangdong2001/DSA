@@ -16,4 +16,5 @@ namespace Sort
         }
         std::cout << std::endl;
     }
+    template class SortBase<float>;
 } // namespace Sort
