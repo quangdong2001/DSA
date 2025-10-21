@@ -15,8 +15,8 @@ namespace Sort{
     template <typename U>
     void BubbleSort<U>::sort(int order)
     {
-        for(int i = 0; i < buckets.size - 1; i++)
-            for(int j = 0; j < buckets.size - 1 - i; j++)
+        for(int i = 0; i < buckets.size() - 1; i++)
+            for(int j = 0; j < buckets.size() - 1 - i; j++)
             {
 
                 if(((buckets.at(j) > buckets.at(j + 1)) && order == ASCENDING) ||
@@ -28,4 +28,5 @@ namespace Sort{
                 }
             }
     }
+    template class BubbleSort<float>;
 } // namespace Sort
