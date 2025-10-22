@@ -67,10 +67,10 @@ InitScreen:
             system("cls");
             goto InitScreen; 
         }
-        // for(int i = 0; i < budgetsInput.size(); i++)
-        //     Sort::BubbleSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
-        // Sort::BubbleSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
-        Sort::BubbleSort<float>::Instance();
+        for(int i = 0; i < budgetsInput.size(); i++)
+            Sort::BubbleSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
+        Sort::BubbleSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
+        Sort::BubbleSort<float>::Instance()->log();
         // Dongnq: 251019: choose sort option (E)
     std::cout << "Cmake and sort comparision END~" << std::endl;
     return 0;

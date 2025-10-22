@@ -1,0 +1,7 @@
+D:/Git/DSA/Sort/lib-static/build-Makefile/CMakeFiles/sort.dir
+D:/Git/DSA/Sort/lib-static/build-Makefile/CMakeFiles/edit_cache.dir
+D:/Git/DSA/Sort/lib-static/build-Makefile/CMakeFiles/rebuild_cache.dir
+D:/Git/DSA/Sort/lib-static/build-Makefile/CMakeFiles/list_install_components.dir
+D:/Git/DSA/Sort/lib-static/build-Makefile/CMakeFiles/install.dir
+D:/Git/DSA/Sort/lib-static/build-Makefile/CMakeFiles/install/local.dir
+D:/Git/DSA/Sort/lib-static/build-Makefile/CMakeFiles/install/strip.dir
