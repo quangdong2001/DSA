@@ -4,7 +4,7 @@
 namespace Sort
 {
     template<class U>
-    class SelectionSort : public Sort<U>
+    class SelectionSort : public SortBase<U>
     {
         private:
             SelectionSort() = default;
