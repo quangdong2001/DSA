@@ -1,9 +1,11 @@
+#ifndef SELECTIONSORT_H
+#define SELECTIONSORT_H
 #include <iostream>
 #include <mutex>
 #include <sortbase.h>
 namespace Sort
 {
-    template<class U>
+    template<typename U>
     class SelectionSort : public SortBase<U>
     {
         private:
@@ -22,3 +24,4 @@ namespace Sort
             using SortBase<U>::buckets;
     };
 }
+#endif

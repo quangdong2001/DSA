@@ -3,6 +3,7 @@
 #include <coredefine.h>
 #include "sortbase.h"
 #include <bubblesort.h>
+#include <selectionsort.h>
 #include <vector>
 #include <chrono>
 #include <windows.h>
@@ -67,10 +68,26 @@ InitScreen:
             system("cls");
             goto InitScreen; 
         }
-        for(int i = 0; i < budgetsInput.size(); i++)
-            Sort::BubbleSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
-        Sort::BubbleSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
-        Sort::BubbleSort<float>::Instance()->log();
+        // check sort option
+        if(sortTypeOption & BubbleSort){
+            for(int i = 0; i < budgetsInput.size(); i++)
+                Sort::BubbleSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
+            Sort::BubbleSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
+            Sort::BubbleSort<float>::Instance()->log();
+        }else if(sortTypeOption & InsertionSort){
+            // TODO: Dongnq
+        }else if(sortTypeOption & SelectionSort){
+            // for(int i = 0; i < budgetsInput.size(); i++)
+                // Sort::SelectionSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
+            // Sort::SelectionSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
+            // Sort::SelectionSort<float>::Instance()->log();
+        }else if(sortTypeOption & MergeSort){
+            // TODO: Dongnq
+        }else if(sortTypeOption & QuickSort){
+            // TODO: Dongnq
+        }else{
+            // TODO: Dongnq
+        }
         // Dongnq: 251019: choose sort option (E)
     std::cout << "Cmake and sort comparision END~" << std::endl;
     return 0;

@@ -164,6 +164,7 @@ CMakeFiles/sortProject.dir/main.cpp.obj: D:\Git\DSA\Sort\main.cpp \
  E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/parse_numbers.h \
  E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h \
  E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_lock.h \
+ D:/Git/DSA/Sort/include/selectionsort.h \
  E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/chrono \
  E:/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h \
  E:/mingw64/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \

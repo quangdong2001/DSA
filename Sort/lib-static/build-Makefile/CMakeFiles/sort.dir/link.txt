@@ -1,2 +1,0 @@
-E:\mingw64\mingw64\bin\ar.exe qc sort.a CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj
-E:\mingw64\mingw64\bin\ranlib.exe sort.a

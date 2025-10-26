@@ -1,3 +1,0 @@
-E:\cmake-4.1.1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\sort.dir/objects.a
-E:\mingw64\mingw64\bin\ar.exe qc CMakeFiles\sort.dir/objects.a @CMakeFiles\sort.dir\objects1.rsp
-E:\mingw64\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\sort.dir/objects.a -Wl,--no-whole-archive -o sort.exe -Wl,--out-implib,libsort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sort.dir\linkLibs.rsp

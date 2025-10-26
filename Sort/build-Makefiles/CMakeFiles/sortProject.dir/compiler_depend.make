@@ -4,6 +4,7 @@
 CMakeFiles/sortProject.dir/main.cpp.obj: D:/Git/DSA/Sort/main.cpp \
   D:/Git/DSA/Sort/include/bubblesort.h \
   D:/Git/DSA/Sort/include/coredefine.h \
+  D:/Git/DSA/Sort/include/selectionsort.h \
   D:/Git/DSA/Sort/include/sortbase.h \
   E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
   E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
@@ -449,6 +450,10 @@ E:/mingw64/mingw64/x86_64-w64-mingw32/include/objidl.h:
 
 D:/Git/DSA/Sort/include/bubblesort.h:
 
+E:/mingw64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+D:/Git/DSA/Sort/include/selectionsort.h:
+
 E:/mingw64/mingw64/x86_64-w64-mingw32/include/heapapi.h:
 
 E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h:
@@ -475,11 +480,11 @@ E:/mingw64/mingw64/x86_64-w64-mingw32/include/datetimeapi.h:
 
 D:/Git/DSA/Sort/include/sortbase.h:
 
-E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h:
-
 E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h:
 
 E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h:
+
+E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h:
 
 E:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h:
 
@@ -1242,8 +1247,6 @@ E:/mingw64/mingw64/x86_64-w64-mingw32/include/securityappcontainer.h:
 E:/mingw64/mingw64/x86_64-w64-mingw32/include/servprov.h:
 
 E:/mingw64/mingw64/x86_64-w64-mingw32/include/shellapi.h:
-
-E:/mingw64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
 
 E:/mingw64/mingw64/x86_64-w64-mingw32/include/stralign.h:
 

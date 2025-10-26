@@ -56,10 +56,10 @@ RM = E:\cmake-4.1.1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Git\DSA\Sort\lib
+CMAKE_SOURCE_DIR = D:\Git\DSA\Sort\lib-static
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Git\DSA\Sort\lib\build-Makefiles
+CMAKE_BINARY_DIR = D:\Git\DSA\Sort\lib-static\build-Makefiles
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles D:\Git\DSA\Sort\lib\build-Makefiles\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles D:\Git\DSA\Sort\lib-static\build-Makefiles\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
