@@ -5,9 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj.d"
   "CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj"
   "CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj.d"
-  "libsort.dll.a"
-  "sort.dll"
-  "sort.dll.manifest"
+  "sort.a"
   "sort.pdb"
 )
 

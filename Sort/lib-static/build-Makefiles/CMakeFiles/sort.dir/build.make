@@ -52,10 +52,10 @@ RM = E:\cmake-4.1.1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Git\DSA\Sort\lib
+CMAKE_SOURCE_DIR = D:\Git\DSA\Sort\lib-static
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Git\DSA\Sort\lib\build-Makefiles
+CMAKE_BINARY_DIR = D:\Git\DSA\Sort\lib-static\build-Makefiles
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sort.dir/depend.make
@@ -75,7 +75,7 @@ CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj: CMakeFiles/sort.dir/
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj: CMakeFiles/sort.dir/includes_CXX.rsp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj: D:/Git/DSA/Sort/src/bubblesort.cpp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj: CMakeFiles/sort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj"
 	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj -MF CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\bubblesort.cpp.obj.d -o CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\bubblesort.cpp.obj -c D:\Git\DSA\Sort\src\bubblesort.cpp
 
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.i: cmake_force
@@ -90,7 +90,7 @@ CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj: CMakeFiles/sort.d
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj: CMakeFiles/sort.dir/includes_CXX.rsp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj: D:/Git/DSA/Sort/src/selectionsort.cpp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj: CMakeFiles/sort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj"
 	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj -MF CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\selectionsort.cpp.obj.d -o CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\selectionsort.cpp.obj -c D:\Git\DSA\Sort\src\selectionsort.cpp
 
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.i: cmake_force
@@ -105,7 +105,7 @@ CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj: CMakeFiles/sort.dir/fl
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj: CMakeFiles/sort.dir/includes_CXX.rsp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj: D:/Git/DSA/Sort/src/sortbase.cpp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj: CMakeFiles/sort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj"
 	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj -MF CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\sortbase.cpp.obj.d -o CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\sortbase.cpp.obj -c D:\Git\DSA\Sort\src\sortbase.cpp
 
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.i: cmake_force
@@ -125,18 +125,17 @@ sort_OBJECTS = \
 # External object files for target sort
 sort_EXTERNAL_OBJECTS =
 
-sort.dll: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj
-sort.dll: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj
-sort.dll: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj
-sort.dll: CMakeFiles/sort.dir/build.make
-sort.dll: CMakeFiles/sort.dir/linkLibs.rsp
-sort.dll: CMakeFiles/sort.dir/objects1.rsp
-sort.dll: CMakeFiles/sort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library sort.dll"
+sort.a: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj
+sort.a: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj
+sort.a: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj
+sort.a: CMakeFiles/sort.dir/build.make
+sort.a: CMakeFiles/sort.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library sort.a"
+	$(CMAKE_COMMAND) -P CMakeFiles\sort.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sort.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sort.dir/build: sort.dll
+CMakeFiles/sort.dir/build: sort.a
 .PHONY : CMakeFiles/sort.dir/build
 
 CMakeFiles/sort.dir/clean:
@@ -144,6 +143,6 @@ CMakeFiles/sort.dir/clean:
 .PHONY : CMakeFiles/sort.dir/clean
 
 CMakeFiles/sort.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Git\DSA\Sort\lib D:\Git\DSA\Sort\lib D:\Git\DSA\Sort\lib\build-Makefiles D:\Git\DSA\Sort\lib\build-Makefiles D:\Git\DSA\Sort\lib\build-Makefiles\CMakeFiles\sort.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Git\DSA\Sort\lib-static D:\Git\DSA\Sort\lib-static D:\Git\DSA\Sort\lib-static\build-Makefiles D:\Git\DSA\Sort\lib-static\build-Makefiles D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles\sort.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/sort.dir/depend
 

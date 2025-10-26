@@ -1,27 +1,26 @@
 #include "../include/selectionsort.h"
-namespace Sort
-{
+namespace Sort{
     /*! @brief declare instance static
     */
-    template<class U>
+    template<typename U>
     SelectionSort<U>* SelectionSort<U>::instance = nullptr;
     template<class U>
     std::mutex SelectionSort<U>::mtx = std::mutex{};
 
     /*! @brief get instance
     */
-   template<class U>
+   template<typename U>
    SelectionSort<U>* SelectionSort<U>::Instance()
    {
         std::unique_lock<std::mutex> lock(mtx);
         if(instance == nullptr)
-            instance = new SelectionSort<U>;
+            instance = new SelectionSort;
         return instance;
    }
 
    /*! @brief implement selection sort
    */
-  template<class U>
+  template<typename U>
   void SelectionSort<U>::sort(int order)
   {
         for(int i = 0; i < buckets.size() - 1; i++)
@@ -43,5 +42,6 @@ namespace Sort
             }
         }
   }
+  template class SelectionSort<float>;
 } // namespace Sort
 
