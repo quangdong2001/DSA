@@ -86,11 +86,26 @@ CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.s"
 	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git\DSA\Sort\src\bubblesort.cpp -o CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\bubblesort.cpp.s
 
+CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj: CMakeFiles/sort.dir/flags.make
+CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj: CMakeFiles/sort.dir/includes_CXX.rsp
+CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj: D:/Git/DSA/Sort/src/insertionsort.cpp
+CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj: CMakeFiles/sort.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj"
+	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj -MF CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\insertionsort.cpp.obj.d -o CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\insertionsort.cpp.obj -c D:\Git\DSA\Sort\src\insertionsort.cpp
+
+CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.i"
+	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git\DSA\Sort\src\insertionsort.cpp > CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\insertionsort.cpp.i
+
+CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.s"
+	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git\DSA\Sort\src\insertionsort.cpp -o CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\insertionsort.cpp.s
+
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj: CMakeFiles/sort.dir/flags.make
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj: CMakeFiles/sort.dir/includes_CXX.rsp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj: D:/Git/DSA/Sort/src/selectionsort.cpp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj: CMakeFiles/sort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj"
 	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj -MF CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\selectionsort.cpp.obj.d -o CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\selectionsort.cpp.obj -c D:\Git\DSA\Sort\src\selectionsort.cpp
 
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.i: cmake_force
@@ -105,7 +120,7 @@ CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj: CMakeFiles/sort.dir/fl
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj: CMakeFiles/sort.dir/includes_CXX.rsp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj: D:/Git/DSA/Sort/src/sortbase.cpp
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj: CMakeFiles/sort.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj"
 	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj -MF CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\sortbase.cpp.obj.d -o CMakeFiles\sort.dir\D_\Git\DSA\Sort\src\sortbase.cpp.obj -c D:\Git\DSA\Sort\src\sortbase.cpp
 
 CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.i: cmake_force
@@ -119,6 +134,7 @@ CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.s: cmake_force
 # Object files for target sort
 sort_OBJECTS = \
 "CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj" \
+"CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj" \
 "CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj" \
 "CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj"
 
@@ -126,11 +142,12 @@ sort_OBJECTS = \
 sort_EXTERNAL_OBJECTS =
 
 sort.a: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.obj
+sort.a: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj
 sort.a: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/selectionsort.cpp.obj
 sort.a: CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/sortbase.cpp.obj
 sort.a: CMakeFiles/sort.dir/build.make
 sort.a: CMakeFiles/sort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library sort.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library sort.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\sort.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sort.dir\link.txt --verbose=$(VERBOSE)
 

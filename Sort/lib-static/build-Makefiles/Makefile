@@ -197,6 +197,30 @@ D_/Git/DSA/Sort/src/bubblesort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/bubblesort.cpp.s
 .PHONY : D_/Git/DSA/Sort/src/bubblesort.cpp.s
 
+D_/Git/DSA/Sort/src/insertionsort.obj: D_/Git/DSA/Sort/src/insertionsort.cpp.obj
+.PHONY : D_/Git/DSA/Sort/src/insertionsort.obj
+
+# target to build an object file
+D_/Git/DSA/Sort/src/insertionsort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.obj
+.PHONY : D_/Git/DSA/Sort/src/insertionsort.cpp.obj
+
+D_/Git/DSA/Sort/src/insertionsort.i: D_/Git/DSA/Sort/src/insertionsort.cpp.i
+.PHONY : D_/Git/DSA/Sort/src/insertionsort.i
+
+# target to preprocess a source file
+D_/Git/DSA/Sort/src/insertionsort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.i
+.PHONY : D_/Git/DSA/Sort/src/insertionsort.cpp.i
+
+D_/Git/DSA/Sort/src/insertionsort.s: D_/Git/DSA/Sort/src/insertionsort.cpp.s
+.PHONY : D_/Git/DSA/Sort/src/insertionsort.s
+
+# target to generate assembly for a file
+D_/Git/DSA/Sort/src/insertionsort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/D_/Git/DSA/Sort/src/insertionsort.cpp.s
+.PHONY : D_/Git/DSA/Sort/src/insertionsort.cpp.s
+
 D_/Git/DSA/Sort/src/selectionsort.obj: D_/Git/DSA/Sort/src/selectionsort.cpp.obj
 .PHONY : D_/Git/DSA/Sort/src/selectionsort.obj
 
@@ -261,6 +285,9 @@ help:
 	@echo ... D_/Git/DSA/Sort/src/bubblesort.obj
 	@echo ... D_/Git/DSA/Sort/src/bubblesort.i
 	@echo ... D_/Git/DSA/Sort/src/bubblesort.s
+	@echo ... D_/Git/DSA/Sort/src/insertionsort.obj
+	@echo ... D_/Git/DSA/Sort/src/insertionsort.i
+	@echo ... D_/Git/DSA/Sort/src/insertionsort.s
 	@echo ... D_/Git/DSA/Sort/src/selectionsort.obj
 	@echo ... D_/Git/DSA/Sort/src/selectionsort.i
 	@echo ... D_/Git/DSA/Sort/src/selectionsort.s
