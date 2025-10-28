@@ -4,6 +4,7 @@
 #include "sortbase.h"
 #include <bubblesort.h>
 #include <selectionsort.h>
+#include <insertionsort.h>
 #include <vector>
 #include <chrono>
 #include <windows.h>
@@ -71,16 +72,19 @@ InitScreen:
         // check sort option
         if(sortTypeOption & BubbleSort){
             for(int i = 0; i < budgetsInput.size(); i++)
+                Sort::InsertionSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
+            Sort::InsertionSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
+            Sort::InsertionSort<float>::Instance()->log();
+        }else if(sortTypeOption & InsertionSort){
+            for(int i = 0; i < budgetsInput.size(); i++)
                 Sort::BubbleSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
             Sort::BubbleSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
             Sort::BubbleSort<float>::Instance()->log();
-        }else if(sortTypeOption & InsertionSort){
-            // TODO: Dongnq
         }else if(sortTypeOption & SelectionSort){
-            // for(int i = 0; i < budgetsInput.size(); i++)
-                // Sort::SelectionSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
-            // Sort::SelectionSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
-            // Sort::SelectionSort<float>::Instance()->log();
+            for(int i = 0; i < budgetsInput.size(); i++)
+                Sort::SelectionSort<float>::Instance()->addCandidate(*(float*)budgetsInput[i]);
+            Sort::SelectionSort<float>::Instance()->sort(Sort::SortBase<float>::OrderType::ASCENDING);
+            Sort::SelectionSort<float>::Instance()->log();
         }else if(sortTypeOption & MergeSort){
             // TODO: Dongnq
         }else if(sortTypeOption & QuickSort){

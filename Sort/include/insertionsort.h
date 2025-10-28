@@ -8,8 +8,8 @@ namespace Sort
     {
         private:
             InsertionSort() = default;
-            ~virtual InsertionSort() = default;
-            InsertionSort& (InsertionSort&) = delete;
+            virtual ~InsertionSort() = default;
+            InsertionSort(InsertionSort&) = delete;
             InsertionSort& operator=(InsertionSort&) = delete;
         public:
             static InsertionSort* Instance();
@@ -17,5 +17,8 @@ namespace Sort
         private:
             static InsertionSort* instance;
             static std::mutex mtx;
+            using SortBase<U>::ASCENDING;
+            using SortBase<U>::DESCENDING;
+            using SortBase<U>::buckets;
     };
 } // namespace Sort

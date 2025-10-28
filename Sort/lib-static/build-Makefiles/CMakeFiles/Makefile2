@@ -84,12 +84,12 @@ clean: CMakeFiles/sort.dir/clean
 CMakeFiles/sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=1,2,3,4 "Built target sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=1,2,3,4,5 "Built target sort"
 .PHONY : CMakeFiles/sort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles 0
 .PHONY : CMakeFiles/sort.dir/rule
@@ -101,7 +101,7 @@ sort: CMakeFiles/sort.dir/rule
 # codegen rule for target.
 CMakeFiles/sort.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\DSA\Sort\lib-static\build-Makefiles\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target sort"
 .PHONY : CMakeFiles/sort.dir/codegen
 
 # clean rule for target.
